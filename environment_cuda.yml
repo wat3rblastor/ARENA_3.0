@@ -1,0 +1,35 @@
+name: arena-gpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - pytorch-cuda=12.1        # CUDA toolkit metapackage
+  - numpy=2.3.*
+  - pandas=2.3.*
+  - scikit-learn=1.7.*
+  - matplotlib=3.10.*
+  - pillow=11.*
+  - plotly=6.3.*
+  - tqdm=4.67.*
+  - ipykernel
+  - ipywidgets=8.1.*
+  - jupyter
+  - requests
+  - pyyaml
+  - protobuf
+  - psutil
+  - sympy
+  - networkx
+  - rich
+  - wandb
+  - pip:
+      - einops==0.8.1
+      - jaxtyping==0.3.3
+      - torchinfo==1.8.0
+      - wadler-lindig==0.1.7
