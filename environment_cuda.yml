@@ -1,4 +1,4 @@
-name: arena-gpu
+name: arena-gpu-env
 channels:
   - pytorch
   - nvidia
@@ -9,7 +9,7 @@ dependencies:
   - pytorch=2.5.1
   - torchvision=0.20.1
   - torchaudio=2.5.1
-  - pytorch-cuda=12.1        # CUDA toolkit metapackage
+  - pytorch-cuda=12.1       
   - numpy=2.3.*
   - pandas=2.3.*
   - scikit-learn=1.7.*
