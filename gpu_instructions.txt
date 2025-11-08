@@ -1,0 +1,7 @@
+ssh-keygen -t ed25519
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+
+conda env create -f environment_cuda.yml
